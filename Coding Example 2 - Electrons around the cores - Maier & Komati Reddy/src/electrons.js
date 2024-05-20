@@ -10,4 +10,6 @@ Electrons.prototype.add = function(string_numbers) {
 
 	return parseInt(number_arr[(number_arr.length - 1)]) + 1;
 
+	// ToDo 2 works the same
+
 };
