@@ -14,4 +14,9 @@ describe('Electrons', function() {
 	it('should return 2 for string "[ 6, 6, 4, 4, 1, 3 ]"', function() {
 		expect(calculator.add('[ 6, 6, 4, 4, 1, 3 ]')).toEqual(2);
 	});
+
+	it('should return 12 for string "[ 3, 5, 3, 5, 4, 2 ]"', function() {
+		expect(calculator.add('[ 3, 5, 3, 5, 4, 2 ]')).toEqual(12);
+	});
+
 });

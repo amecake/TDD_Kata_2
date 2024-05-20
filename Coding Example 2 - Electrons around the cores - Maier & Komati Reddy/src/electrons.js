@@ -2,7 +2,8 @@
 function Electrons() {}
 Electrons.prototype.add = function(string_numbers) {
 
-	// Takes the last one and adds 1
+	// Even numbers are ignored 
+	// add odd numbers -1 together
 
 	let numbers = string_numbers.slice(2,(string_numbers.length -2));
 	
@@ -25,6 +26,5 @@ Electrons.prototype.add = function(string_numbers) {
 
 	return sum;
 
-	// ToDo 2 works the same
 
 };
