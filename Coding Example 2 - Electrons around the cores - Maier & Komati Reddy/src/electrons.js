@@ -26,5 +26,4 @@ Electrons.prototype.add = function(string_numbers) {
 
 	return sum;
 
-
 };
