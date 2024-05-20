@@ -8,7 +8,22 @@ Electrons.prototype.add = function(string_numbers) {
 	
 	number_arr = numbers.split(', ');
 
-	return parseInt(number_arr[(number_arr.length - 1)]) + 1;
+	console.log(number_arr);
+
+	let sum = 0;
+
+	for (let i = 0; i < number_arr.length; i++) {
+		if (number_arr[i] % 2 == 0) {
+			continue;
+		} else {
+			let odd_num;
+			odd_num = number_arr[i] -= 1;
+
+			sum += odd_num;
+		}
+	}
+
+	return sum;
 
 	// ToDo 2 works the same
 
