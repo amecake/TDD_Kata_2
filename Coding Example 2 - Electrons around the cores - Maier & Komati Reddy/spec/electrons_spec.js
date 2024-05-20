@@ -23,4 +23,8 @@ describe('Electrons', function() {
 		expect(calculator.add('[ 1, 5, 6, 2, 3, 1 ]')).toEqual(6);
 	});
 
+	it('should return 8 for string "[ 3, 3, 3, 3 ]"', function() {
+		expect(calculator.add('[ 3, 3, 3, 3 ]')).toEqual(8);
+	});
+
 });
